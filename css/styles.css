@@ -191,16 +191,17 @@ select:-webkit-autofill:focus {
   margin-bottom: 16px;
   background-color: var(--border-color);
 }
+
 .nft-card__author {
   display: flex;
   align-items: center;
 }
+
 .nft-card__author-img {
   border-radius: 50%;
   margin-right: 16px;
 }
-.nft-card__author-text {
-}
+
 .nft-card__author-name {
   text-decoration: none;
   color: #fff;
@@ -227,6 +228,7 @@ only screen and (                min-resolution: 2dppx) {
   body {
     padding: 24px;
   }
+
   .nft-card {
     display: block;
     width: 350px;
